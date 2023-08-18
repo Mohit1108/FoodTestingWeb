@@ -1,0 +1,72 @@
+.AboutSection{
+    position: relative;
+    padding: 100px 0px;}
+
+.AboutSection .heading-container{
+    max-width: 100%;
+}
+
+.AboutSection .subTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    gap: 10px;
+    color: #22b6af;
+}
+.FloatText {
+    background-color: #1d5ccd;
+    position: absolute;
+    top: 50px;
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border-radius: 50%;
+    background-blend-mode: multiply;
+    padding: 32px 0;
+    color: #fff;
+    right: 80px;
+}
+
+.FloatText h2{
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 6px;
+
+}
+
+.ImageDiv{
+    position: relative;
+}
+
+.shapeBox{
+}
+.shapeBox .shape-1 {
+    position: absolute;
+    right: 200px;
+    bottom: -10px;
+    width: 153px;
+    height: 162px;
+    background-repeat: no-repeat;
+        background-image: url(../Images/shape-5.png);
+        z-index: -1;
+    }
+
+.shapeBox .shape-2 {    z-index: -1;
+
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    width: 211px;
+    height: 211px;
+    background-repeat: no-repeat;
+background-image: url(../Images/shape-2.png);}
+

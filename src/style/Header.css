@@ -1,0 +1,19 @@
+.LogoImage {
+    max-width: 200px;
+    height: 57px;
+}
+
+.light-bg {
+    background-color: #f5f8fd;
+}
+
+.nav-link.active, .nav-link:hover{
+    color: #22b6af  !important;
+}
+a.nav-link{
+    color: #142441;
+    font-size: 18px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 500;
+}

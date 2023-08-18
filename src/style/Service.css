@@ -1,0 +1,156 @@
+.service-section {
+  padding: 100px 0px;
+
+  position: relative;
+}
+
+.pattern-1 {
+  background-image: url(../Images/shape-3.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 608px;
+  height: 563px;
+  background-repeat: no-repeat;
+}
+.pattern-2 {
+  background-image: url(../Images/shape-4.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 513px;
+  height: 529px;
+  background-repeat: no-repeat;
+}
+
+.service-title{
+  text-transform: uppercase;
+}
+
+.subTitle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 10px;
+  color: #22b6af;
+}
+
+.subTitle:before {
+  content: "";
+  background: url(../Images/decor.png);
+  width: 37px;
+  height: 7px;
+  transform: translateY(-50%);
+}
+
+.subTitle:after {
+  content: "";
+  background: url(../Images/decor.png);
+  width: 37px;
+  height: 7px;
+  transform: translateY(-50%);
+}
+
+.Titleheading {
+  display: block;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.heading-container {
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+}
+
+.myCard {
+  position: relative;
+    display: block;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 50px 30px;
+    box-shadow: 0 10px 30px #edf2f2;
+
+/* 
+ position: relative;
+  display: block;
+  background: linear-gradient(#fff, #fff 50%, #22b6af 50%, #22b6af);
+  background-size: 200% 200%;
+  transition: background 1s;
+  border-radius: 20px;
+  padding: 50px 30px;
+  box-shadow: 0 10px 30px #edf2f2; */
+}
+
+
+
+
+.myCard:before {
+    background: #22b6af;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+}
+
+
+.myCard:hover:before {
+  height: 100%;
+  top: 0;
+}
+
+
+.myCard:hover h3, .myCard:hover p {
+  color: #fff;
+  position: relative;
+  transition: all 500ms ease;
+}
+
+.myCard a{
+  padding: 7.5px 22px !important;
+
+}
+
+.myCard:hover img{
+  filter: invert(1);transition: all 500ms ease;}
+
+.serviceCards {
+  display: grid;
+
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+}
+
+.myCard h3 {
+  color: #142441;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+img.service-image {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+

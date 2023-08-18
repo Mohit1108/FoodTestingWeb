@@ -1,0 +1,194 @@
+
+/** button **/
+
+.theme-btn-one{
+    background: #22b6af;
+
+    position      : relative;
+    display       : inline-block;
+    overflow      : hidden;
+    vertical-align: middle;
+    font-size     : 16px;
+    line-height   : 25px;
+    font-weight   : 700;
+    color         : #fff !important;
+    text-align    : center;
+    padding       : 14px 36px 15px 36px;
+    border-radius : 30px;
+    z-index       : 1;
+    transition    : all 500ms ease;
+  }
+  
+  .theme-btn-one:before{
+    -webkit-transition-duration: 800ms;
+    transition-duration       : 800ms;
+    position                  : absolute;
+    width                     : 200%;
+    height                    : 200%;
+    content                   : "";
+    bottom                    : 110%;
+    left                      : 50%;
+    background                : #111111;
+    -webkit-transform         : translateX(-50%);
+    transform                 : translateX(-50%);
+    border-radius             : 50%;
+    z-index                   : -1;
+  }
+  
+  .theme-btn-one:hover:before{
+    bottom: -40%;
+  }
+  
+  .theme-btn-two{
+    position     : relative;
+    display      : inline-block;
+    font-size    : 14px;
+    line-height  : 25px;
+    font-family  : 'Open Sans', sans-serif;
+    font-weight  : 700;
+    color        : #142441 !important;
+    background   : #f2f3f5;
+    
+    text-align   : center;
+    border-radius: 30px;
+    padding       : 14.5px 37px;
+    z-index      : 1;
+    transition   : all 500ms ease;
+  }
+  
+  .theme-btn-two:hover{
+    color: #22b6af !important;
+  }
+  
+  
+  .theme-btn-three{
+    background: #22b6af;
+
+    position      : relative;
+    display       : inline-block;
+    overflow      : hidden;
+    vertical-align: middle;
+    font-size     : 16px;
+    line-height   : 25px;
+    font-family   : 'Nunito Sans', sans-serif;
+    font-weight   : 700;
+    color         : #fff !important;
+    text-align    : center;
+    border-radius : 3px;
+    padding       : 14.5px 37px;
+    text-transform: capitalize;
+    z-index       : 1;
+    transition    : all 500ms ease;
+    border-radius : 30px;
+
+  }
+  
+  .theme-btn-three:before{
+    webkit-transition-duration: 800ms;
+    transition-duration       : 800ms;
+    position                  : absolute;
+    width                     : 200%;
+    height                    : 200%;
+    content                   : "";
+    top                       : 110%;
+    left                      : 50%;
+    background                : #111111;
+    -webkit-transform         : translateX(-50%);
+    transform                 : translateX(-50%);
+    border-radius             : 50%;
+    z-index                   : -1;
+  }
+  
+  .theme-btn-three:hover:before{
+    top: -40%;
+  }
+  
+  .theme-btn-four{
+    position      : relative;
+    display       : inline-block;
+    overflow      : hidden;
+    vertical-align: middle;
+    font-size     : 16px;
+    line-height   : 25px;
+    font-family   : 'Nunito Sans', sans-serif;
+    font-weight   : 700;
+    color         : #111 !important;
+    border        : 2px solid #e5e8ea;
+    text-align    : center;
+    border-radius : 30px;
+    padding       : 15.5px 33px;
+    text-transform: capitalize;
+    z-index       : 1;
+    transition    : all 500ms ease;
+  }
+  
+  .theme-btn-four:hover{
+    color: #22b6af !important;
+  }
+  
+  .theme-btn-four:before{
+    webkit-transition-duration: 800ms;
+    transition-duration       : 800ms;
+    position                  : absolute;
+    width                     : 200%;
+    height                    : 200%;
+    content                   : "";
+    top                       : 110%;
+    left                      : 50%;
+    -webkit-transform         : translateX(-50%);
+    transform                 : translateX(-50%);
+    border-radius             : 50%;
+    z-index                   : -1;
+  }
+  
+  .theme-btn-four:hover:before{
+    top: -40%;
+  }
+  
+
+
+.HomeContactBTN {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #022;
+  border: 1px solid #b9c4cb;
+  text-align: center;
+  padding: 13px 40px 14px;
+  border-radius: 30px;
+  z-index: 1;
+  transition: all 500ms ease
+}
+
+.HomeContactBTN:hover {
+  color: #fff
+}
+
+.HomeContactBTN:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  transform: scale(0,0);
+  z-index: -1;
+  transition: all 500ms ease
+}
+
+.HomeContactBTN:hover:before {
+  transform: scale(1,1)
+}
+
+.HomeContactBTN:before{
+	background: #22b6af;
+}
+
+.HomeContactBTN:hover{
+	border-color: #22b6af;
+}

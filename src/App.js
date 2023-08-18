@@ -1,10 +1,18 @@
-import "./styles.css";
+import "./style/styles.css";
+import "./style/button.css";
+import "./style/Service.css";
+import "./style/AboutSection.css";
+import "./style/HomePage.css"
+import "./style/Animations.css"
+import Header from "./Components/Header/header";
 
+import HomePage from "./Pages/homePage"
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+      <> <Header/>
+      <HomePage />
+      </>
+       
+
   );
 }

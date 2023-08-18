@@ -1,0 +1,160 @@
+.video-section {
+  background-image: url(../Images/video-BG.jpg);
+  position: relative;
+  padding: 200px 0 200px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-color: #1d5ccd;
+}
+.videobtn {
+  text-align: center;
+}
+.PlayBtn {
+  color: #22b6af;
+  font-size: 98px;
+  text-align: center;
+}
+
+.video-popup {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-popup iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Steps Testing */
+.stepstesting {
+  position: relative;
+  padding: 65px 0px 0px 0px;
+
+  background-image: url(../Images/Bg-How.jpg);
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.imageIcon img {
+  width: 100%;
+}
+.imageIcon {
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background: #fff;
+  backface-visibility: hidden;
+  box-shadow: 0px 2px 21px 0px #0047f024;
+  border-radius: 500px;
+}
+
+.TitleIcon {
+  margin-bottom: 0;
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.IconBox.left {
+  margin-left: 120px;
+}
+.IconBox {
+  max-width: 200px;
+}
+.IconBox.right {
+  margin-right: 120px;
+}
+.iconBoxes {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;align-items: flex-end;
+}
+
+
+.stepProcess{
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: -60px;
+  margin-bottom: 0px;
+position: relative;
+min-height: 100vh;}
+
+.stepProcess .row{
+  background-color: #FFFFFF;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0px 3px 23px 0px rgba(0,71,240,0.131704)
+}
+.stepProcess .col{
+  padding: 0;
+}
+
+.NumberBox {
+  padding: 50px;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  height: 100%;   border-radius: 8px;
+
+
+}
+.NumberBox:hover{
+  background: #22b6af;
+  box-shadow: 0px 3px 23px 0px rgba(0,71,240,0.331704);  border-radius: 8px;
+transform: scale(1.1);
+}
+
+.number-Text h4 {
+  width: fit-content;
+  margin-bottom: 0;
+  margin-right: 18px;
+  padding-right: 18px;
+  border-right: 1px solid #D2D3E5;
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 800;
+  color: #22b6af;
+}
+.NumberBox:hover h4, .NumberBox:hover h3, .NumberBox:hover p{
+  color: #fff;
+}
+.NumberBox .theme-btn-one{
+  padding: 7.5px 22px !important;
+}
+.NumberBox:hover .theme-btn-one{
+  background:#111111;
+
+}
+.NumberBox:hover .theme-btn-one:hover{
+  transform: scale(1.1);
+
+}
+
+.number-Text > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.number-Text h3{
+  color: #142441;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 19px;
+  margin-bottom: 10px;
+}
